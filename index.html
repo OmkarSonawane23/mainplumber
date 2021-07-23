@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+</head>
+<body>
+
+<header>
+        
+<nav>
+        <div class="logo"> <h1 style="font-size: 20px;"> Omkar Plumbing works </h1> </div>
+        <div class="menu">
+                <a href="#" style="font-size: ">Home</a>
+                <a target="_blank" href="video1.mp4">Intro</a>
+                <a href="https://bit.ly/plumbervs" target="_blank">about</a>
+                <a href="tel:918668930836">contact</a>
+        </div>
+</nav>
+
+        <main>
+                <section>
+                        <h3>Welcome To </h3>
+                        <h1>Omkar Plumbing Works <span class="change_content"> </span> <span style="margin-top: -10px;"> | </span> </h1>
+                        <p>"The Most Trusted Plumbers Are Here"</p>
+                        <a target="_blank" href="video1.mp4" class="btnone">learn more</a>
+                        <a href="tel:918668930836" class="btntwo">Contact us</a>
+                </section>
+        </main>
+
+
+</header>
+<style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url("1.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+nav {
+  width: 100%;
+  height: 15vh;
+  background: rgba(0, 0, 0, 0.2);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+nav .logo {
+  width: 25%;
+  text-align: center;
+  /*background: red;*/
+}
+
+nav .menu {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav .menu a {
+  width: 25%;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav .menu a:first-child {
+  color: #00b894;
+}
+
+main {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+section h3 {
+  font-size: 35px;
+  font-weight: 200;
+  letter-spacing: 3px;
+  text-shadow: 1px 1px 2px black;
+  color: #aeb3ff;
+}
+
+section h1 {
+  margin: 30px 0 20px 0;
+  font-size: 55px;
+  font-weight: 700;
+  text-shadow: 2px 1px 5px black;
+  text-transform: uppercase;
+  color: #ff8be0;
+}
+
+section p {
+  font-size: 25px;
+  word-spacing: 2px;
+  margin-bottom: 25px;
+  text-shadow: 1px 1px 1px black;
+  color: #aeb3ff;
+}
+
+section a {
+  padding: 12px 30px;
+  border-radius: 4px;
+  outline: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: all 0.5s ease;
+}
+
+section .btnone {
+  /*background: #00b894;*/
+  background: #ffa9a9;
+  color: #000;
+}
+
+.btnone:hover {
+  background: #00b894;
+  color: white;
+}
+
+section .btntwo {
+  background: #00b894;
+  color: white;
+}
+
+.btntwo:hover {
+  background: #ffa9a9;
+  color: #000;
+}
+
+.change_content:after {
+  content: "";
+  animation: changetext 10s infinite linear;
+  color: #00b894;
+}
+
+
+}    
+</style>
+
+</body>
+</html>
